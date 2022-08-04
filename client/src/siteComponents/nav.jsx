@@ -30,10 +30,10 @@ const NavBar = () => {
         </div>
         {(toggle?<div className="grid justify-center mr-6 border-b border-red-500 text-xl">
             <a href="/" className="p-1">Home</a>
-            <a href="#" className="p-1">About Me</a>
-            <a href="#" className="p-1">Why Me</a>
-            <a href="#" className="p-1">Projects</a>
-            <a href="#" className="p-1">Contact Me</a>
+            <a href="/" className="p-1">About Me</a>
+            <a href="/" className="p-1">Why Me</a>
+            <a href="/" className="p-1">Projects</a>
+            <a href="/" className="p-1">Contact Me</a>
         </div> : null )}
       </div>
     </div>
