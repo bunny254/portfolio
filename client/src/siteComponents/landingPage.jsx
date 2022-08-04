@@ -1,12 +1,12 @@
-import React from 'react'
-import Nav from './nav';
+import React from "react";
+import Nav from "./nav";
 
 const LandingPage = () => {
   return (
     <div>
-        <Nav/>
+      <Nav />
     </div>
-  )
-}
+  );
+};
 
-export default LandingPage
+export default LandingPage;
