@@ -29,11 +29,11 @@ const NavBar = () => {
           </div>
         </div>
         {(toggle?<div className="grid justify-center mr-24 border-dashed border-[#FE4A49] text-xl">
-            <a href="/" className="p-1">Home</a>
-            <a href="/" className="p-1">About Me</a>
-            <a href="/" className="p-1">Why Me</a>
-            <a href="/" className="p-1">Projects</a>
-            <a href="/" className="p-1">Contact Me</a>
+            <a href="/" className="p-1 text-white">Home</a>
+            <a href="/" className="p-1 text-white">About Me</a>
+            <a href="/" className="p-1 text-white">Why Me</a>
+            <a href="/" className="p-1 text-white">Projects</a>
+            <a href="/" className="p-1 text-white">Contact Me</a>
         </div> : null )}
       </div>
     </div>

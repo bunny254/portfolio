@@ -13,7 +13,7 @@ const Home = () => {
             </div>
             <div className='flex justify-center'>
                 <section>
-                <h2 className='text-2xl text-white'> My name is Simon Wachira, a <br/>professional Software Engineer<br/>with a proven  ability to design<br/>and deliver object-oriented<br/>software development solutions.</h2>
+                <h2 className='text-2xl text-white'> My name is Simon Wachira, a <br/>professional Software Engineer<br/>with a proven ability to design<br/>and deliver object-oriented<br/>software development solutions.</h2>
                 </section>
             </div>
             <div className='flex justify-center'>
