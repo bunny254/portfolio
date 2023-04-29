@@ -1,5 +1,5 @@
 import React from 'react';
-import photo1 from '../assets/transparent_background.png';
+import photo1 from '../assets/transparent_background.webp';
 
 const Home = () => {
   return (
