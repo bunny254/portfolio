@@ -1,29 +1,27 @@
-import React from 'react';
-import photo1 from '../assets/transparent_background.webp';
+import {
+  AiOutlineGithub,
+  AiFillLinkedin,
+  AiOutlineInstagram,
+  AiOutlineTwitter,
+  AiOutlineWhatsApp,
+} from "react-icons/ai";
+import photo1 from "../assets/transparent_background.webp";
 
 const Home = () => {
   return (
-    <div>
-        <div className='xl:hidden'>
-            <div className='flex justify-center'>
-            <h1 className='mt-3 text-2xl text-[#4AD7D1]'>Software Engineer</h1>
-            </div>
-            <div>
-                <img alt='simon_photo' src={photo1} className='h-[30%]'/>
-            </div>
-            <div className='flex justify-center'>
-                <section>
-                <h2 className='text-2xl text-white'> My name is Simon Wachira, a <br/>professional Software Engineer<br/>with a proven ability to design<br/>and deliver object-oriented<br/>software development solutions.</h2>
-                </section>
-            </div>
-            <div className='flex justify-center'>
-                <button className='bg-[#4AD7D1] mt-6 p-3 mr-8 rounded-l-xl rounded-r-xl'>Hire Me</button>
-                <button className='bg-[#4AD7D1] mt-6 p-3 ml-8 rounded-l-xl rounded-r-xl'>Resume</button>
-            </div>
-            
-        </div>
+    <div className="grid">
+      <div className="text-4xl flex justify-center gap-6 text-gray-600">
+        <AiOutlineGithub />
+        <AiFillLinkedin />
+        <AiOutlineInstagram />
+        <AiOutlineTwitter />
+        <AiOutlineWhatsApp />
+      </div>
+      <div className="mx-auto mt-6 bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden md:h-96 md:w-96">
+        <img src={photo1} alt="profile_image" className="object-cover"/>
+      </div>
     </div>
-  )
-}
+  );
+};
 
 export default Home;

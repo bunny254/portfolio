@@ -1,42 +1,41 @@
-import React,{useState} from "react";
-import { MdLightMode, MdDarkMode,MdOutlineClose } from "react-icons/md";
-import { RiMenu4Line } from "react-icons/ri";
+import { MdLightMode, MdDarkMode } from "react-icons/md";
+import { useDarkMode } from "./darkMode";
 
 const NavBar = () => {
-    const [darkMode,setDarkMode]=useState(false);
-    const handleDarkMode=()=>{
-        setDarkMode(!darkMode)
-    }
-    const [toggle,setToggle]=useState(false);
-    const handleToggle=()=>{
-        setToggle(!toggle)
-    }
+  const { isDarkMode, toggleDarkMode } = useDarkMode();
   return (
-    <div>
-      <div className="xl:hidden">
-        <div className="grid grid-cols-8">
-          <div className="col-span-6">
-          <a href="/" className="grid justify-center mt-1 ml-18 text-4xl text-[#FE4A49]">
-            Simon
-          </a>
-          </div>
-          <div className="col-span-1">
-            {(!darkMode? <MdLightMode size='19px' onClick={handleDarkMode} className='mt-5 ml-4'color="white"/> :
-            <MdDarkMode size='20px' onClick={handleDarkMode} className='mt-5 ml-4'/> )}
-          </div>
-          <div className="col-span-1">
-            {(!toggle? <RiMenu4Line size='30px' onClick={handleToggle} className='mt-3' color="#4AD7D1"/> : <MdOutlineClose size='30px' onClick={handleToggle} className='mt-3' color="#4AD7D1"/>)}
-          </div>
-        </div>
-        {(toggle?<div className="grid justify-center mr-24 border-dashed border-[#FE4A49] text-xl">
-            <a href="/" className="p-1 text-white">Home</a>
-            <a href="/" className="p-1 text-white">About Me</a>
-            <a href="/" className="p-1 text-white">Why Me</a>
-            <a href="/" className="p-1 text-white">Projects</a>
-            <a href="/" className="p-1 text-white">Contact Me</a>
-        </div> : null )}
-      </div>
-    </div>
+    <nav className={isDarkMode ? "dark" : ""}>
+      <nav>
+        <nav className="py-10 flex justify-between">
+          <h1 className="text-xl ml-4 font-semibold italic dark:text-white">© BUILTBYSIMON</h1>
+          <ul className="flex items-center">
+            <li>
+              {isDarkMode ? (
+                <MdLightMode
+                  onClick={toggleDarkMode}
+                  size="28px"
+                  className="cursor-pointer dark:text-white"
+                />
+              ) : (
+                <MdDarkMode
+                  onClick={toggleDarkMode}
+                  size="28px"
+                  className="cursor-pointer"
+                />
+              )}
+            </li>
+            <li>
+              <a
+                className="mr-2 bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                href="/"
+              >
+                Resume
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </nav>
+    </nav>
   );
 };
 
