@@ -1,8 +1,10 @@
 import { MdLightMode, MdDarkMode } from "react-icons/md";
 import { useDarkMode } from "./darkMode";
+import resume  from '../assets/Simon_Wachira_Resume_2023_Latest.pdf';
 
 const NavBar = () => {
   const { isDarkMode, toggleDarkMode } = useDarkMode();
+  
   return (
     <nav className={isDarkMode ? "dark" : ""}>
       <nav>
@@ -27,7 +29,7 @@ const NavBar = () => {
             <li>
               <a
                 className="mr-2 bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                href="/"
+                href={resume} download="Simon_Resume"
               >
                 Resume
               </a>

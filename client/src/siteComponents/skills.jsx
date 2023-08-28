@@ -31,7 +31,7 @@ const Skills = () => {
           <div className="space-y-2">
             {skills.slice(0, visibleSkills).map((skill) => (
               <div key={skill.name}>
-                <div className="flex justify-between">
+                <div className="flex justify-between dark:text-white">
                   <span>{skill.name}</span>
                   <span>{skill.percentage}%</span>
                 </div>
@@ -55,7 +55,7 @@ const Skills = () => {
           <h2 className="text-2xl font-bold mb-4 text-teal-600">
             Skills and Technologies
           </h2>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-4 dark:text-white">
             {skills.map((skill) => (
               <div key={skill.name} className="mb-4">
                 <div>
