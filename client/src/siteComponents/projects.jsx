@@ -13,7 +13,7 @@ const Projects = () => {
               <img src={spotify} alt="spotify" className="bg-cover rounded" />
               <div className="mt-10">
                 <button className="border border-teal-600">
-                  <p className="p-1 hover:text-teal-600">View Github</p>
+                <a href="https://github.com/bunny254/spotify" target="_blank" rel="noreferrer"><p className="p-1 hover:text-teal-600">View Github</p></a>
                 </button>
               </div>
             </div>
@@ -107,7 +107,7 @@ const Projects = () => {
               <img src={spotify} alt="spotify" className="bg-cover rounded" />
               <div className="mt-4 flex justify-center">
                 <button className="border border-teal-600">
-                  <p className="p-1 hover:text-teal-600">View Github</p>
+                  <a href="https://github.com/bunny254/spotify" target="_blank" rel="noreferrer"><p className="p-1 hover:text-teal-600">View Github</p></a>
                 </button>
               </div>
             </div>
