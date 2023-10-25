@@ -99,7 +99,7 @@ const About = () => {
       <h2 className="text-4xl text-teal-600 font-medium py-2 md:text-5xl">Simon Wachira</h2>
       <h3 className="text-xl py-2 md:text-2xl">Software engineer.</h3>
       <p className="text-md py-2 leading-8 text-gray-800 dark:text-white md:text-xl">
-        I am software engineer highly skilled and experienced individual
+        I am highly skilled and experienced software engineer
         specialized in developing, and maintaining software solutions.
         <br /> I have deep understanding of various programming languages,
         frameworks, and development methodologies, they have the ability to

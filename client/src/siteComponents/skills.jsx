@@ -3,15 +3,15 @@ import React, { useState } from "react";
 const Skills = () => {
   const skills = [
     { name: "Javascript", percentage: 90 },
-    { name: "Node.js", percentage: 75 },
     { name: "React.js", percentage: 85 },
+    { name: "Node.js", percentage: 75 },
+    { name: "MySQL", percentage: 70 },
     { name: "Laravel", percentage: 60 },
-    { name: "Python", percentage: 30 },
-    { name: "AWS", percentage: 45 },
     { name: "Git", percentage: 60 },
     { name: "REST", percentage: 50 },
-    { name: "MySQL", percentage: 70 },
     { name: "MongoDB", percentage: 50 },
+    { name: "AWS", percentage: 45 },
+    { name: "Python", percentage: 30 },
     // Add more skills as needed
   ];
   const [visibleSkills, setVisibleSkills] = useState(4);
@@ -44,7 +44,12 @@ const Skills = () => {
               </div>
             ))}
             {visibleSkills < skills.length && (
-              <button className="bg-teal-600 rounded px-3 py-1" onClick={loadMoreSkills}>Show More</button>
+              <button
+                className="bg-teal-600 rounded px-3 py-1"
+                onClick={loadMoreSkills}
+              >
+                Show More
+              </button>
             )}
           </div>
         </div>
