@@ -1,8 +1,10 @@
+//import MobileNav from "./mobNav";
 import Nav from "./nav";
 import Home from "./home";
 import About from "./about";
 import Skills from "./skills";
 import { useDarkMode } from "./darkMode";
+import Projects from "./projects";
 
 const LandingPage = () => {
   const { isDarkMode} = useDarkMode();
@@ -13,6 +15,7 @@ const LandingPage = () => {
       <About/>
       <Home/>
       <Skills/>
+      <Projects/>
       </div>
     </div>
   );
