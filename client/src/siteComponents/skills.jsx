@@ -25,7 +25,7 @@ const Skills = () => {
       {/*Mobile View*/}
       <div className="sm:flex xl:hidden">
         <div className="mt-4 p-4">
-          <h2 className="text-2xl font-bold mb-4 text-teal-600">
+          <h2 className="text-2xl font-bold mb-4 text-teal-600 text-center">
             Skills and Technologies
           </h2>
           <div className="space-y-2">
