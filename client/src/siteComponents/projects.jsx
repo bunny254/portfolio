@@ -18,22 +18,22 @@ const Projects = () => {
               </div>
             </div>
             <div className="col-span-4">
-              <h1 className="mb-4 font-bold text-2xl">Spotify Clone</h1>
-              <p className="mb-4">
+              <h1 className="mb-4 font-bold text-2xl dark:text-white">Spotify Clone</h1>
+              <p className="mb-4 dark:text-white">
                 Used spotify web API which enables developers to interact with
                 Spotify's streaming service. Cloned the UI to and ensured
                 control to interact with playback, play and resume songs.
               </p>
-              <p className="mb-2 font-semibold">Inspiration:</p>
-              <p className="mb-4">
+              <p className="mb-2 font-semibold dark:text-white">Inspiration:</p>
+              <p className="mb-4 dark:text-white">
                 Spotify has always been my favourite music streaming platform.
                 Inspired with the working enviromnent for engineers at Spotify
                 (#lifeatspotify) and the underlying technology especially
                 machine learning algorithms that curate beautify personalized
                 content.
               </p>
-              <h2 className="mb-4 font-semibold">Built With</h2>
-              <div className="flex gap-4">
+              <h2 className="mb-4 font-semibold dark:text-white">Built With</h2>
+              <div className="flex gap-4 dark:text-white">
                 <button className="rounded-2xl border border-teal-600">
                   <p className="px-2 py-1">React.js</p>
                 </button>
@@ -61,21 +61,21 @@ const Projects = () => {
             Projects
           </h2>
           <div className="flex flex-col">
-            <h1 className="font-bold text-xl">• Spotify Clone</h1>
-            <p className="mb-4">
+            <h1 className="font-bold text-xl dark:text-white">• Spotify Clone</h1>
+            <p className="mb-4 dark:text-white">
               Used spotify web API which enables developers to interact with
               Spotify's streaming service. Cloned the UI to and ensured control
               to interact with playback, play and resume songs.
             </p>
-            <p className="mb-2 font-semibold">Inspiration:</p>
-            <p className="mb-4">
+            <p className="mb-2 font-semibold dark:text-white">Inspiration:</p>
+            <p className="mb-4 dark:text-white">
               Spotify has always been my favourite music streaming platform.
               Inspired with the working enviromnent for engineers at Spotify
               (#lifeatspotify) and the underlying technology especially machine
               learning algorithms that curate beautify personalized content.
             </p>
-            <h2 className="mb-4 font-semibold">Built With</h2>
-            <div className="grid grid-cols-4 gap-4 items-center justify-center">
+            <h2 className="mb-4 font-semibold dark:text-white">Built With</h2>
+            <div className="grid grid-cols-4 gap-4 items-center justify-center dark:text-white">
               <div className="col-span-2">
                 <button className="rounded-2xl border border-teal-600">
                   <p className="px-2 py-1">React.js</p>
@@ -105,7 +105,7 @@ const Projects = () => {
             </div>
             <div className="mt-4">
               <img src={spotify} alt="spotify" className="bg-cover rounded" />
-              <div className="mt-4 flex justify-center">
+              <div className="mt-4 flex justify-center dark:text-white">
                 <button className="border border-teal-600">
                   <a href="https://github.com/bunny254/spotify" target="_blank" rel="noreferrer"><p className="p-1 hover:text-teal-600">View Github</p></a>
                 </button>
