@@ -56,8 +56,8 @@ const Skills = () => {
       </div>
       {/*Desktop View */}
       <div className="hidden xl:grid">
-        <div className="p-4 ml-16">
-          <h2 className="text-2xl font-bold mb-4 text-teal-600">
+        <div className="p-4 mt-4 ml-16">
+          <h2 className="text-3xl text-center font-bold mb-4 text-teal-600">
             Skills and Technologies
           </h2>
           <div className="grid grid-cols-2 gap-4 dark:text-white">

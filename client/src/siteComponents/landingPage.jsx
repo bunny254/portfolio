@@ -6,6 +6,7 @@ import Skills from "./skills";
 import { useDarkMode } from "./darkMode";
 import Projects from "./projects";
 import Events from "./events";
+import Testimonials from "./testimonials";
 
 const LandingPage = () => {
   const { isDarkMode} = useDarkMode();
@@ -18,6 +19,7 @@ const LandingPage = () => {
       <Skills/>
       <Projects/>
       <Events/>
+      <Testimonials/>
       </div>
     </div>
   );

@@ -7,18 +7,26 @@ const Projects = () => {
       {/*Desktop View*/}
       <div className="hidden xl:grid">
         <div className="p-4 ml-16">
-          <h2 className="text-2xl font-bold mb-4 text-teal-600">Projects</h2>
+          <h2 className="text-3xl font-bold mb-4 text-center text-teal-600">Projects</h2>
           <div className="grid grid-cols-8 gap-10">
             <div className="col-span-4">
               <img src={spotify} alt="spotify" className="bg-cover rounded" />
               <div className="mt-10">
                 <button className="border border-teal-600">
-                <a href="https://github.com/bunny254/spotify" target="_blank" rel="noreferrer"><p className="p-1 hover:text-teal-600">View Github</p></a>
+                  <a
+                    href="https://github.com/bunny254/spotify"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <p className="p-1 hover:text-teal-600">View Github</p>
+                  </a>
                 </button>
               </div>
             </div>
             <div className="col-span-4">
-              <h1 className="mb-4 font-bold text-2xl dark:text-white">Spotify Clone</h1>
+              <h1 className="mb-4 font-bold text-2xl dark:text-white">
+                Spotify Clone
+              </h1>
               <p className="mb-4 dark:text-white">
                 Used spotify web API which enables developers to interact with
                 Spotify's streaming service. Cloned the UI to and ensured
@@ -61,7 +69,9 @@ const Projects = () => {
             Projects
           </h2>
           <div className="flex flex-col">
-            <h1 className="font-bold text-xl dark:text-white">• Spotify Clone</h1>
+            <h1 className="font-bold text-xl dark:text-white">
+              • Spotify Clone
+            </h1>
             <p className="mb-4 dark:text-white">
               Used spotify web API which enables developers to interact with
               Spotify's streaming service. Cloned the UI to and ensured control
@@ -107,7 +117,13 @@ const Projects = () => {
               <img src={spotify} alt="spotify" className="bg-cover rounded" />
               <div className="mt-4 flex justify-center dark:text-white">
                 <button className="border border-teal-600">
-                  <a href="https://github.com/bunny254/spotify" target="_blank" rel="noreferrer"><p className="p-1 hover:text-teal-600">View Github</p></a>
+                  <a
+                    href="https://github.com/bunny254/spotify"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <p className="p-1 hover:text-teal-600">View Github</p>
+                  </a>
                 </button>
               </div>
             </div>

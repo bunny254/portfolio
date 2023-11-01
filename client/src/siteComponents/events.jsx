@@ -8,7 +8,7 @@ const Events = () => {
     <div>
       <div className="hidden xl:grid">
         <div className="p-4 ml-16">
-          <h2 className="text-2xl font-bold mb-4 text-teal-600">
+          <h2 className="text-3xl text-center font-bold mb-4 text-teal-600">
             Highlights from past events & conferences
           </h2>
           <div>
@@ -57,14 +57,13 @@ const Events = () => {
               Global PP Hackerthon at Microsoft(ADC) 2023
             </h1>
             <p className="mt-3 dark:text-white">
-                    Presented with a unique opportunity to challenge myself,
-                    learn new skills, and showcase my talent thanks to
-                    Microsoft. <br /> Worked in a diverse team to deliver a
-                    project using Microsoft Power Apps across the entire
-                    Microsoft Power Platform. <br/> Won prizes including T-shirts,
-                    Customized Mug and Free access to LinkedIn learning for a
-                    whole year.
-                  </p>
+              Presented with a unique opportunity to challenge myself, learn new
+              skills, and showcase my talent thanks to Microsoft. <br /> Worked
+              in a diverse team to deliver a project using Microsoft Power Apps
+              across the entire Microsoft Power Platform. <br /> Won prizes
+              including T-shirts, Customized Mug and Free access to LinkedIn
+              learning for a whole year.
+            </p>
           </div>
         </div>
       </div>
