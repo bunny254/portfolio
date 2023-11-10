@@ -1,20 +1,21 @@
 import React from "react";
 import jamin from "../assets/jamin.jpeg";
+import tabby from "../assets/kanyi.jpg";
 
 const Testimonials = () => {
   return (
     <div>
-      <div class="min-w-screen min-h-screen bg-gray-50 flex items-center justify-center">
-        <div class="w-full bg-white border-t border-b border-gray-200 px-5">
+      <div class="min-w-screen min-h-screen  flex items-center justify-center">
+        <div class="w-full  border-t border-b border-gray-200 px-5">
           <div class="w-full max-w-6xl mx-auto">
             <div class="text-center max-w-xl mx-auto">
               <h1 class="text-3xl md:text-4xl font-bold mb-5  text-teal-600">
                 What people <br />
                 are saying about me.
               </h1>
-              <h3 class="text-xl mb-5 font-light">
-                Watching a professional practice is craft is amazing and here as
-                some reviews about me.
+              <h3 class="text-xl mb-5 dark:text-white font-light">
+                Watching a professional practice is craft is amazing and here
+                are some reviews about me.
               </h3>
               <div class="text-center mb-10">
                 <span class="inline-block w-1 h-1 rounded-full bg-teal-600 ml-1"></span>
@@ -61,11 +62,11 @@ const Testimonials = () => {
                 <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                   <div class="w-full flex mb-4 items-center">
                     <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                      <img src="https://i.pravatar.cc/100?img=1" alt="" />
+                      <img src={tabby} alt="Tabitha Kanyi"/>
                     </div>
                     <div class="flex-grow pl-3">
                       <h6 class="font-bold text-sm uppercase text-gray-600">
-                        Kenzie Edgar.
+                        Tabitha Kanyi.
                       </h6>
                     </div>
                   </div>
@@ -74,10 +75,9 @@ const Testimonials = () => {
                       <span class="text-lg leading-none italic font-bold text-gray-400 mr-1">
                         "
                       </span>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Quos sunt ratione dolor exercitationem minima quas itaque
-                      saepe quasi architecto vel! Accusantium, vero sint
-                      recusandae cum tempora nemo commodi soluta deleniti.
+                      Simon is efficient, fast, creative and proffessional. He
+                      is a detail oriented team player, who always ensures the
+                      company goals are achieved on a timely manner.
                       <span class="text-lg leading-none italic font-bold text-gray-400 ml-1">
                         "
                       </span>
