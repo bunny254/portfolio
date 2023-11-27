@@ -15,7 +15,7 @@ const LandingPage = () => {
     <div className={isDarkMode ? "dark" : ""}>
       <div className="dark:bg-gray-900">
           <Nav />
-          <Confetti width={1900} height={1000}/>
+          <Confetti width={1400} height={1000}/>
           <About />
           <Home />
           <Skills />
