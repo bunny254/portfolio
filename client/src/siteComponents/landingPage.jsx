@@ -7,7 +7,7 @@ import { useDarkMode } from "./darkMode";
 import Projects from "./projects";
 import Events from "./events";
 import Testimonials from "./testimonials";
-import Confetti from "react-confetti";
+//import Confetti from "react-confetti";
 
 const LandingPage = () => {
   const { isDarkMode } = useDarkMode();
@@ -15,7 +15,6 @@ const LandingPage = () => {
     <div className={isDarkMode ? "dark" : ""}>
       <div className="dark:bg-gray-900">
           <Nav />
-          <Confetti width={1400} height={1000}/>
           <About />
           <Home />
           <Skills />
