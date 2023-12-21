@@ -18,7 +18,7 @@ const Projects = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <p className="p-1 hover:text-teal-600">View Github</p>
+                    <p className="p-1 hover:text-teal-600 dark:text-white">View Github</p>
                   </a>
                 </button>
               </div>
