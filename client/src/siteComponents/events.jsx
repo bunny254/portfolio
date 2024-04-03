@@ -26,11 +26,11 @@ const Events = () => {
                     Global PP Hackerthon at Microsoft(ADC) 2023
                   </h1>
                   <p className="mt-2 dark:text-white">
-                    Presented with a unique opportunity to challenge myself,
+                    I was presented with a unique opportunity to challenge myself,
                     learn new skills, and showcase my talent thanks to
-                    Microsoft. <br /> Worked in a diverse team to deliver a
+                    Microsoft. <br /> I worked in a diverse team to deliver a
                     project using Microsoft Power Apps across the entire
-                    Microsoft Power Platform. Won prizes including T-shirts,
+                    Microsoft Power Platform. I also won prizes including T-shirts,
                     Customized Mug and Free access to LinkedIn learning for a
                     whole year.
                   </p>
@@ -49,7 +49,7 @@ const Events = () => {
             <img
               src={event1}
               alt="Microsoft Hackerthon 2023"
-              className="w-full h-60 object-cover"
+              className="w-full h-[35rem] object-cover"
             />
           </div>
           <div>
