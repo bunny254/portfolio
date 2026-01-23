@@ -1,6 +1,6 @@
 import { MdLightMode, MdDarkMode } from "react-icons/md";
 import { useDarkMode } from "./darkMode";
-import resume from "../assets/Simon_Resume_2024.pdf";
+import resume from "../assets/simon_wachira_resume.pdf";
 
 const NavBar = () => {
   const { isDarkMode, toggleDarkMode } = useDarkMode();
