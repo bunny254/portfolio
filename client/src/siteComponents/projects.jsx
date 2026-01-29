@@ -1,5 +1,4 @@
-import React from "react";
-import spotify from "../assets/spotify.png";
+import spotify from "../assets/projects/spotify.png";
 import wairimu from "../assets/wairimu.webp";
 
 const Projects = () => {

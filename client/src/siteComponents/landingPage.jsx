@@ -4,7 +4,6 @@ import Home from "./home";
 import About from "./about";
 import Skills from "./skills";
 import { useDarkMode } from "./darkMode";
-import Projects from "./projects";
 import Events from "./events";
 import Testimonials from "./testimonials";
 //import Confetti from "react-confetti";
@@ -18,7 +17,6 @@ const LandingPage = () => {
           <About />
           <Home />
           <Skills />
-          <Projects />
           <Events />
           <Testimonials />
       </div>
