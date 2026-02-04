@@ -11,8 +11,7 @@ const Testimonials = () => {
           <div class="w-full max-w-6xl mx-auto">
             <div class="text-center max-w-xl mx-auto">
               <h1 class="text-3xl md:text-4xl font-bold mb-5  text-teal-600">
-                What people <br />
-                are saying about me.
+                Reviews
               </h1>
               <h3 class="text-xl mb-5 dark:text-white font-light">
                 Watching a professional practice is craft is amazing and here

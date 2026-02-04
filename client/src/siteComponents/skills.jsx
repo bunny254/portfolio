@@ -49,28 +49,28 @@ const PortfolioSections = () => {
     {
       image: practice,
       title: "Practice Management Software",
-      description: "AI-powered content creation platform with natural language processing.",
-      tags: ["PHP", "Calendly API", "Hubspot API", "MySQL", "POP3/SMTP"],
+      description: "Built for law firms with enterprise-grade security and compliance features. Easy-to-use, and   designed to work the way you do.",
+      tags: ["PHP", "Calendly API", "Hubspot API", "MySQL", "POP3/SMTP", "OpenAI API"],
       githubUrl: "https://github.com/bunny254/practiceManagement"
     },
     {
       image: helpDesk,
       title: "Help Desk Software",
-      description: "AI-powered content creation platform with natural language processing.",
+      description: "Ticketing software designed to manage and troubleshoot support issues effectively.",
       tags: ["PHP", "JQuery", "Africa's Talking API", "MySQL", "POP3/SMTP"],
       githubUrl: "https://github.com/bunny254/helpDesk"
     },
     {
       image: chatApp,
       title: "Chat Application",
-      description: "AI-powered content creation platform with natural language processing.",
-      tags: ["C#", "SignalR", "React", "Tailwindcss",],
+      description: "Real-time messaging platform with SignalR integration and responsive UI.",
+      tags: ["C#", "SignalR", "React", "Tailwindcss", ".Net"],
       githubUrl: "https://github.com/bunny254/chatApp"
     },
     {
       image: ballPool,
       title: "8 Ball Pool Game",
-      description: "AI-powered content creation platform with natural language processing.",
+      description: "A digital version of the classic 8 Ball Pool game with physics-based gameplay.",
       tags: ["Python", "Pymunk", "Pygame"],
       githubUrl: "https://github.com/bunny254/chatApp"
     },
